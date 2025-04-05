@@ -1,6 +1,6 @@
 FROM openjdk:17
 
-COPY target/demo-app.jar  /usr/app/
+COPY target/demo-docker-app.jar  /usr/app/
 
 WORKDIR /usr/app/
 
